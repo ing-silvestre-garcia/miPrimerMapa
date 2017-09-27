@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		D7BA55E11F7C6A2D004EB292 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BA55E01F7C6A2D004EB292 /* main.m */; };
 		D7BA55E41F7C6A2D004EB292 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BA55E31F7C6A2D004EB292 /* AppDelegate.m */; };
-		D7BA55E71F7C6A2D004EB292 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BA55E61F7C6A2D004EB292 /* ViewController.m */; };
+		D7BA55E71F7C6A2D004EB292 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BA55E61F7C6A2D004EB292 /* Home.m */; };
 		D7BA55EA1F7C6A2D004EB292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7BA55E81F7C6A2D004EB292 /* Main.storyboard */; };
 		D7BA55EC1F7C6A2D004EB292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7BA55EB1F7C6A2D004EB292 /* Assets.xcassets */; };
 		D7BA55EF1F7C6A2D004EB292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7BA55ED1F7C6A2D004EB292 /* LaunchScreen.storyboard */; };
@@ -39,8 +39,8 @@
 		D7BA55E01F7C6A2D004EB292 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D7BA55E21F7C6A2D004EB292 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7BA55E31F7C6A2D004EB292 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D7BA55E51F7C6A2D004EB292 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D7BA55E61F7C6A2D004EB292 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D7BA55E51F7C6A2D004EB292 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		D7BA55E61F7C6A2D004EB292 /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		D7BA55E91F7C6A2D004EB292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7BA55EB1F7C6A2D004EB292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7BA55EE1F7C6A2D004EB292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,10 +101,8 @@
 		D7BA55DE1F7C6A2D004EB292 /* miPrimerMapa */ = {
 			isa = PBXGroup;
 			children = (
-				D7BA55E21F7C6A2D004EB292 /* AppDelegate.h */,
-				D7BA55E31F7C6A2D004EB292 /* AppDelegate.m */,
-				D7BA55E51F7C6A2D004EB292 /* ViewController.h */,
-				D7BA55E61F7C6A2D004EB292 /* ViewController.m */,
+				D7BA56131F7C6B0C004EB292 /* Main */,
+				D7BA56121F7C6A58004EB292 /* Controllers */,
 				D7BA55E81F7C6A2D004EB292 /* Main.storyboard */,
 				D7BA55EB1F7C6A2D004EB292 /* Assets.xcassets */,
 				D7BA55ED1F7C6A2D004EB292 /* LaunchScreen.storyboard */,
@@ -138,6 +136,24 @@
 				D7BA56061F7C6A2D004EB292 /* Info.plist */,
 			);
 			path = miPrimerMapaUITests;
+			sourceTree = "<group>";
+		};
+		D7BA56121F7C6A58004EB292 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D7BA55E51F7C6A2D004EB292 /* Home.h */,
+				D7BA55E61F7C6A2D004EB292 /* Home.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D7BA56131F7C6B0C004EB292 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D7BA55E21F7C6A2D004EB292 /* AppDelegate.h */,
+				D7BA55E31F7C6A2D004EB292 /* AppDelegate.m */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7BA55E71F7C6A2D004EB292 /* ViewController.m in Sources */,
+				D7BA55E71F7C6A2D004EB292 /* Home.m in Sources */,
 				D7BA55E41F7C6A2D004EB292 /* AppDelegate.m in Sources */,
 				D7BA55E11F7C6A2D004EB292 /* main.m in Sources */,
 			);
