@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70842152A030F7565535E2E3 /* libPods-miPrimerMapa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA814EBFD0951C4ECEBDEC91 /* libPods-miPrimerMapa.a */; };
 		D7BA55E11F7C6A2D004EB292 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BA55E01F7C6A2D004EB292 /* main.m */; };
 		D7BA55E41F7C6A2D004EB292 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BA55E31F7C6A2D004EB292 /* AppDelegate.m */; };
 		D7BA55E71F7C6A2D004EB292 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BA55E61F7C6A2D004EB292 /* Home.m */; };
@@ -15,6 +16,7 @@
 		D7BA55EF1F7C6A2D004EB292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7BA55ED1F7C6A2D004EB292 /* LaunchScreen.storyboard */; };
 		D7BA55FA1F7C6A2D004EB292 /* miPrimerMapaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BA55F91F7C6A2D004EB292 /* miPrimerMapaTests.m */; };
 		D7BA56051F7C6A2D004EB292 /* miPrimerMapaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BA56041F7C6A2D004EB292 /* miPrimerMapaUITests.m */; };
+		D7BA56151F7C6CA4004EB292 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D7BA56141F7C6CA4004EB292 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F2E4F4A59D86A77B22D4792 /* Pods-miPrimerMapa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-miPrimerMapa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-miPrimerMapa/Pods-miPrimerMapa.debug.xcconfig"; sourceTree = "<group>"; };
 		D7BA55DC1F7C6A2D004EB292 /* miPrimerMapa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = miPrimerMapa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7BA55E01F7C6A2D004EB292 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D7BA55E21F7C6A2D004EB292 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +54,9 @@
 		D7BA56001F7C6A2D004EB292 /* miPrimerMapaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = miPrimerMapaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7BA56041F7C6A2D004EB292 /* miPrimerMapaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = miPrimerMapaUITests.m; sourceTree = "<group>"; };
 		D7BA56061F7C6A2D004EB292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7BA56141F7C6CA4004EB292 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		EFB37F69B12C2E1A89F995C9 /* Pods-miPrimerMapa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-miPrimerMapa.release.xcconfig"; path = "Pods/Target Support Files/Pods-miPrimerMapa/Pods-miPrimerMapa.release.xcconfig"; sourceTree = "<group>"; };
+		FA814EBFD0951C4ECEBDEC91 /* libPods-miPrimerMapa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-miPrimerMapa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70842152A030F7565535E2E3 /* libPods-miPrimerMapa.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +85,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29EB34A46A9D08A8C634BF16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F2E4F4A59D86A77B22D4792 /* Pods-miPrimerMapa.debug.xcconfig */,
+				EFB37F69B12C2E1A89F995C9 /* Pods-miPrimerMapa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E9A65D9065E4763CC5403A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA814EBFD0951C4ECEBDEC91 /* libPods-miPrimerMapa.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D7BA55D31F7C6A2D004EB292 = {
 			isa = PBXGroup;
 			children = (
+				D7BA56141F7C6CA4004EB292 /* Podfile */,
 				D7BA55DE1F7C6A2D004EB292 /* miPrimerMapa */,
 				D7BA55F81F7C6A2D004EB292 /* miPrimerMapaTests */,
 				D7BA56031F7C6A2D004EB292 /* miPrimerMapaUITests */,
 				D7BA55DD1F7C6A2D004EB292 /* Products */,
+				29EB34A46A9D08A8C634BF16 /* Pods */,
+				4E9A65D9065E4763CC5403A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7BA56091F7C6A2D004EB292 /* Build configuration list for PBXNativeTarget "miPrimerMapa" */;
 			buildPhases = (
+				C277F2B187D15BA4F3043DB3 /* [CP] Check Pods Manifest.lock */,
 				D7BA55D81F7C6A2D004EB292 /* Sources */,
 				D7BA55D91F7C6A2D004EB292 /* Frameworks */,
 				D7BA55DA1F7C6A2D004EB292 /* Resources */,
+				E20FC0ACCBEB302357C4C5A0 /* [CP] Embed Pods Frameworks */,
+				44290A34E98AD35F5F63EE0A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +294,7 @@
 			files = (
 				D7BA55EF1F7C6A2D004EB292 /* LaunchScreen.storyboard in Resources */,
 				D7BA55EC1F7C6A2D004EB292 /* Assets.xcassets in Resources */,
+				D7BA56151F7C6CA4004EB292 /* Podfile in Resources */,
 				D7BA55EA1F7C6A2D004EB292 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +314,61 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44290A34E98AD35F5F63EE0A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-miPrimerMapa/Pods-miPrimerMapa-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-miPrimerMapa/Pods-miPrimerMapa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C277F2B187D15BA4F3043DB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-miPrimerMapa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E20FC0ACCBEB302357C4C5A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-miPrimerMapa/Pods-miPrimerMapa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D7BA55D81F7C6A2D004EB292 /* Sources */ = {
@@ -438,6 +524,7 @@
 		};
 		D7BA560A1F7C6A2D004EB292 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F2E4F4A59D86A77B22D4792 /* Pods-miPrimerMapa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = miPrimerMapa/Info.plist;
@@ -449,6 +536,7 @@
 		};
 		D7BA560B1F7C6A2D004EB292 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFB37F69B12C2E1A89F995C9 /* Pods-miPrimerMapa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = miPrimerMapa/Info.plist;
